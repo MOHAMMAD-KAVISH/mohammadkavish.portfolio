@@ -335,6 +335,8 @@ h3.my-profession{
     flex: 0 0 50%;
     max-width: 50%;
 }
+
+
 .about .about-content .personal-info .info-item p{
     font-weight: 600;
     padding: 10px 0;
@@ -687,5 +689,14 @@ h3.my-profession{
     .about .about-content .personal-info{
         flex: 0 0 100%;
         max-width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    /* Add rules for large screens */
+    .main-content {
+        padding-left: 270px; /* Adjust padding for larger viewports */
+    }
+    .aside {
+        left: 0; /* Sidebar is visible on larger screens */
     }
 }
