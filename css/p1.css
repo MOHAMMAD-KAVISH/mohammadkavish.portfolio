@@ -471,7 +471,7 @@ h3.my-profession{
 .about .about-content .timeline .timeline-date .fa{
     margin-right: 5px;
 }
-.about .about-content .timeline .timeline-title{
+/* .about .about-content .timeline .timeline-title{
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 15px;
@@ -484,7 +484,29 @@ h3.my-profession{
     font-size: 16px;
     text-align: justify;
     color: var(--text-black-700);
+} */
+
+.about .about-content .timeline .timeline-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: var(--text-black-900); /* Default color */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
+
+.about .about-content .timeline a:hover .timeline-title {
+    color: #007bff; /* Desired hover color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.about .about-content .timeline .timeline-text {
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-700);
+}
+
 
 
 
